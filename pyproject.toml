@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todoist-cli"
+version = "0.1.0"
+description = "Simple command-line interface for the Todoist API Python SDK."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "todoist-api-python>=3.1.0",
+]
+
+[project.scripts]
+todoist = "todoist_cli.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
