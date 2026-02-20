@@ -34,6 +34,8 @@ todoist --help
 
 ### Tasks
 
+Create, inspect, update, complete, and delete tasks from the terminal.
+
 ```bash
 todoist tasks list
 todoist tasks add "Pay rent" --due-string "tomorrow 9am" --priority 1
@@ -47,6 +49,8 @@ Priority values are user-facing Todoist priorities: `p1` highest, `p4` lowest.
 
 ### Projects
 
+Manage project containers and switch between list/board view styles.
+
 ```bash
 todoist projects list
 todoist projects add "Operations"
@@ -55,6 +59,8 @@ todoist projects view-style <project_id> board
 ```
 
 ### Sections
+
+Organize project work into named columns/lanes by listing and managing sections.
 
 ```bash
 todoist sections list --project-id <project_id>
@@ -65,12 +71,16 @@ todoist sections delete <section_id>
 
 ### Boards
 
+See a board-style overview of tasks by section and move tasks between sections.
+
 ```bash
 todoist boards show --project-id <project_id>
 todoist boards move <task_id> --section-id <section_id>
 ```
 
 ### Calendar
+
+View due tasks by day/week/range and quickly reschedule deadlines.
 
 ```bash
 todoist calendar today
@@ -81,12 +91,16 @@ todoist calendar reschedule <task_id> --due-string "tomorrow 9am"
 
 ### Comments
 
+List task comments and add progress/context notes directly from CLI.
+
 ```bash
 todoist comments list --task-id <task_id>
 todoist comments add --task-id <task_id> "Started work"
 ```
 
 ### Labels
+
+List available labels so you can filter and tag tasks consistently.
 
 ```bash
 todoist labels list
