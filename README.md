@@ -1,5 +1,10 @@
 # lvl3dev-todoist-cli
 
+[![CI](https://github.com/dolphin-electric/todoist-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/dolphin-electric/todoist-cli/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/lvl3dev-todoist-cli?logo=pypi&logoColor=white)](https://pypi.org/project/lvl3dev-todoist-cli/)
+[![Python versions](https://img.shields.io/pypi/pyversions/lvl3dev-todoist-cli?logo=python&logoColor=white)](https://pypi.org/project/lvl3dev-todoist-cli/)
+[![License](https://img.shields.io/github/license/dolphin-electric/todoist-cli)](LICENSE)
+
 A practical Todoist command-line interface built on the official `todoist-api-python` SDK.
 It gives you direct terminal control over tasks, projects, sections, boards, comments, labels,
 and calendar-oriented workflows. It is also a great tool for AI agents to manage and control
