@@ -1,40 +1,11 @@
 # lvl3dev-todoist-cli
 
-Simple command-line interface for Todoist using the official `todoist-api-python` SDK.
+A practical Todoist command-line interface built on the official `todoist-api-python` SDK.
+It gives you direct terminal control over tasks, projects, sections, boards, comments, labels,
+and calendar-oriented workflows. It is also a great tool for AI agents to manage and control
+Todoist reliably through explicit CLI commands and JSON output.
 
-## Development setup (uv)
-
-```bash
-uv sync
-```
-
-Run commands through `uv`:
-
-```bash
-uv run todoist --help
-```
-
-## Build and install (uv + pipx)
-
-Build a wheel with `uv`:
-
-```bash
-uv build
-```
-
-Install globally with `pipx` from the built wheel:
-
-```bash
-pipx install dist/lvl3dev_todoist_cli-*.whl
-```
-
-For local iteration, reinstall after changes with:
-
-```bash
-pipx install --force dist/lvl3dev_todoist_cli-*.whl
-```
-
-Install from PyPI:
+## Install
 
 ```bash
 pipx install lvl3dev-todoist-cli
