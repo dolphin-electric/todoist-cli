@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lvl3dev-todoist-cli"
-version = "0.1.1"
+version = "1.0.0"
 description = "Simple command-line interface for the Todoist API Python SDK."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -14,7 +14,7 @@ authors = [
   { name = "Dolphin Electric" },
 ]
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 5 - Production/Stable",
   "Environment :: Console",
   "Intended Audience :: End Users/Desktop",
   "Programming Language :: Python :: 3",
