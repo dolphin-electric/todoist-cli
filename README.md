@@ -1,4 +1,4 @@
-# todoist-cli
+# lvl3dev-todoist-cli
 
 Simple command-line interface for Todoist using the official `todoist-api-python` SDK.
 
@@ -25,13 +25,13 @@ uv build
 Install globally with `pipx` from the built wheel:
 
 ```bash
-pipx install dist/todoist_cli-*.whl
+pipx install dist/lvl3dev_todoist_cli-*.whl
 ```
 
 For local iteration, reinstall after changes with:
 
 ```bash
-pipx install --force dist/todoist_cli-*.whl
+pipx install --force dist/lvl3dev_todoist_cli-*.whl
 ```
 
 ## Authentication

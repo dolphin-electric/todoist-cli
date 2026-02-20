@@ -3,7 +3,7 @@ requires = ["setuptools>=69.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "todoist-cli"
+name = "lvl3dev-todoist-cli"
 version = "0.1.0"
 description = "Simple command-line interface for the Todoist API Python SDK."
 readme = "README.md"
