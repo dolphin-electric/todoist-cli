@@ -34,6 +34,12 @@ For local iteration, reinstall after changes with:
 pipx install --force dist/lvl3dev_todoist_cli-*.whl
 ```
 
+Install from PyPI:
+
+```bash
+pipx install lvl3dev-todoist-cli
+```
+
 ## Authentication
 
 Set your API token:
@@ -69,6 +75,32 @@ Priority values are user-facing Todoist priorities: `p1` highest, `p4` lowest.
 todoist projects list
 todoist projects add "Operations"
 todoist projects update <project_id> "Ops"
+todoist projects view-style <project_id> board
+```
+
+### Sections
+
+```bash
+todoist sections list --project-id <project_id>
+todoist sections add --project-id <project_id> "In Progress"
+todoist sections update <section_id> "Doing"
+todoist sections delete <section_id>
+```
+
+### Boards
+
+```bash
+todoist boards show --project-id <project_id>
+todoist boards move <task_id> --section-id <section_id>
+```
+
+### Calendar
+
+```bash
+todoist calendar today
+todoist calendar week
+todoist calendar range --from 2026-02-20 --to 2026-02-27
+todoist calendar reschedule <task_id> --due-string "tomorrow 9am"
 ```
 
 ### Comments

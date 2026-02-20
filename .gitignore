@@ -11,9 +11,17 @@ __pycache__/
 .venv/
 venv/
 
+# Local environment files
+.env
+.env.*
+!.env.example
+
 # Build artifacts
 build/
 dist/
+
+# uv lockfile (library project)
+uv.lock
 
 # Tool caches
 .pytest_cache/

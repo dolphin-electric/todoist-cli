@@ -4,13 +4,36 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lvl3dev-todoist-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple command-line interface for the Todoist API Python SDK."
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Dolphin Electric" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Office/Business :: Scheduling",
+  "Topic :: Utilities",
+]
 dependencies = [
   "todoist-api-python>=3.1.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/dolphin-electric/todoist-cli"
+Repository = "https://github.com/dolphin-electric/todoist-cli"
+Issues = "https://github.com/dolphin-electric/todoist-cli/issues"
 
 [project.scripts]
 todoist = "todoist_cli.cli:main"
