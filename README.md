@@ -1,5 +1,14 @@
 # lvl3dev-todoist-cli
 
+```bash
+  ______          __      _      __ 
+ /_  __/___  ____/ /___  (_)____/ /_
+  / / / __ \/ __  / __ \/ / ___/ __/
+ / / / /_/ / /_/ / /_/ / (__  ) /_  
+/_/  \____/\__,_/\____/_/____/\__/  
+                                    
+```
+
 [![CI](https://github.com/dolphin-electric/todoist-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/dolphin-electric/todoist-cli/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/lvl3dev-todoist-cli?logo=pypi&logoColor=white)](https://pypi.org/project/lvl3dev-todoist-cli/)
 [![Python versions](https://img.shields.io/pypi/pyversions/lvl3dev-todoist-cli?logo=python&logoColor=white)](https://pypi.org/project/lvl3dev-todoist-cli/)
